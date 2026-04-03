@@ -1,8 +1,9 @@
-W="Welcome {} to {} Wscubetech".format("hello",20);
-print(W)
+n = input("Enter a number: ")
+print(n)
+l=n.split();
+print(l)
 
-W="Welcome {1} to {0} Wscubetech".format("hello",20);
-print(W)
-
-W="Welcome {b} to {a} Wscubetech".format(a=30,b=40)
-print(W)
+def square(x):
+     return x*x
+s=square(int(input("enter no")))
+print(s)
